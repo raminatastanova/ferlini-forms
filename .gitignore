@@ -1,0 +1,45 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+*.swp
+*.xcuserstate
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Compiled source
+*.o
+*.pyc
+*.swp
+*.class
+
+# Generated files
+*.pbxuser
+*.xcworkspace
+*.xccheckout
+DerivedData/
+.idea/
+*.hmap
+*.ipa
+
+# User-specific files
+xcuserdata/
+
+# Build products
+build/
+*.build/
+DerivedData/
+
+# Ignore device-specific files
+*.suo
+*.user
+*.userosscache
+
+# Misc
+*.log
+*.moved-aside
+*.tmp
