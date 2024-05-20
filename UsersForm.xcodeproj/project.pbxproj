@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E016DFC2BF6E516009B0DDB /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E016DFB2BF6E516009B0DDB /* UserListViewController.swift */; };
 		9E36B9BF2BF6C44400520DD1 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36B9BE2BF6C44400520DD1 /* CoreDataManager.swift */; };
+		9E38B5332BFB42C800CA00AF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E38B5322BFB42C800CA00AF /* SnapKit */; };
 		9E5302EF2BF5000800E6D2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5302EE2BF5000800E6D2D0 /* AppDelegate.swift */; };
 		9E5302F12BF5000800E6D2D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5302F02BF5000800E6D2D0 /* SceneDelegate.swift */; };
 		9E5302F32BF5000800E6D2D0 /* UserDataFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5302F22BF5000800E6D2D0 /* UserDataFormViewController.swift */; };
@@ -18,8 +19,6 @@
 		9E5303072BF5002500E6D2D0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5303062BF5002500E6D2D0 /* Protocols.swift */; };
 		9E5303092BF5002D00E6D2D0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5303082BF5002D00E6D2D0 /* Model.swift */; };
 		9E53030B2BF5003C00E6D2D0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53030A2BF5003C00E6D2D0 /* Presenter.swift */; };
-		9E54EE5E2BFB40CE00F97AED /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E54EE5D2BFB40CE00F97AED /* SnapKit */; };
-		9E54EE602BFB412E00F97AED /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E54EE5F2BFB412E00F97AED /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,19 +42,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E54EE5E2BFB40CE00F97AED /* SnapKit in Frameworks */,
-				9E54EE602BFB412E00F97AED /* SnapKit in Frameworks */,
+				9E38B5332BFB42C800CA00AF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E38B5312BFB42C800CA00AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E5302E22BF5000800E6D2D0 = {
 			isa = PBXGroup;
 			children = (
 				9E5302ED2BF5000800E6D2D0 /* UsersForm */,
 				9E5302EC2BF5000800E6D2D0 /* Products */,
+				9E38B5312BFB42C800CA00AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,8 +133,7 @@
 			);
 			name = UsersForm;
 			packageProductDependencies = (
-				9E54EE5D2BFB40CE00F97AED /* SnapKit */,
-				9E54EE5F2BFB412E00F97AED /* SnapKit */,
+				9E38B5322BFB42C800CA00AF /* SnapKit */,
 			);
 			productName = UsersForm;
 			productReference = 9E5302EB2BF5000800E6D2D0 /* UsersForm.app */;
@@ -431,12 +436,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9E54EE5D2BFB40CE00F97AED /* SnapKit */ = {
+		9E38B5322BFB42C800CA00AF /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SnapKit;
-		};
-		9E54EE5F2BFB412E00F97AED /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
+			package = 9E53030E2BF5010900E6D2D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
