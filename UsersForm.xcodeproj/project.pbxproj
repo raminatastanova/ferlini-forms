@@ -18,7 +18,8 @@
 		9E5303072BF5002500E6D2D0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5303062BF5002500E6D2D0 /* Protocols.swift */; };
 		9E5303092BF5002D00E6D2D0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5303082BF5002D00E6D2D0 /* Model.swift */; };
 		9E53030B2BF5003C00E6D2D0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E53030A2BF5003C00E6D2D0 /* Presenter.swift */; };
-		9E5303102BF5010900E6D2D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E53030F2BF5010900E6D2D0 /* SnapKit */; };
+		9E54EE5E2BFB40CE00F97AED /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E54EE5D2BFB40CE00F97AED /* SnapKit */; };
+		9E54EE602BFB412E00F97AED /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9E54EE5F2BFB412E00F97AED /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5303102BF5010900E6D2D0 /* SnapKit in Frameworks */,
+				9E54EE5E2BFB40CE00F97AED /* SnapKit in Frameworks */,
+				9E54EE602BFB412E00F97AED /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +127,8 @@
 			);
 			name = UsersForm;
 			packageProductDependencies = (
-				9E53030F2BF5010900E6D2D0 /* SnapKit */,
+				9E54EE5D2BFB40CE00F97AED /* SnapKit */,
+				9E54EE5F2BFB412E00F97AED /* SnapKit */,
 			);
 			productName = UsersForm;
 			productReference = 9E5302EB2BF5000800E6D2D0 /* UsersForm.app */;
@@ -428,9 +431,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9E53030F2BF5010900E6D2D0 /* SnapKit */ = {
+		9E54EE5D2BFB40CE00F97AED /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9E53030E2BF5010900E6D2D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		9E54EE5F2BFB412E00F97AED /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
